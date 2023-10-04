@@ -27,4 +27,16 @@
 ### Running the tests
 
 ```
-$ dotnet test ./KMS.Tests/KMS.Tests.csproj
+$ dotnet test ./KMS.Tests/KMS.Tests.csproj 
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  KMS.Tests -> /home/joe/Code/git-repos/KMS.Tests/KMS.Tests/bin/Debug/net6.0/KMS.Tests.dll
+Test run for /home/joe/Code/git-repos/KMS.Tests/KMS.Tests/bin/Debug/net6.0/KMS.Tests.dll (.NETCoreApp,Version=v6.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.4.1+79d56b02b69a582cd90428878a5e9411ab7538f5 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     4, Skipped:     0, Total:     4, Duration: 1 s - KMS.Tests.dll (net6.0)
+```
